@@ -37,11 +37,11 @@ void mail::reg(int k) {
 int main() {
 
     int t;
-    cout << "\nEnter Registration Details for User 1 :: \n";
+    cout << "\nEnter Registration Details for User 1: \n";
     obj[0].reg(0);
-    cout << "\nEnter Registration Details for User 2 :: \n";
+    cout << "\nEnter Registration Details for User 2: \n";
     obj[1].reg(1);
-    cout << "\nEnter Registration Details for User 3 :: \n";
+    cout << "\nEnter Registration Details for User 3: \n";
     obj[2].reg(2);
 
     mail obj2;
@@ -62,7 +62,7 @@ int main() {
         fileIn.read((char*)&obj2, sizeof(obj2));
         while (fileIn)
         {
-            cout << "\nUsername :: " << obj2.userName << "\nPasswword :: " << obj2.passWord << "\n";
+            cout << "\nUsername: " << obj2.userName << "\nPasswword: " << obj2.passWord << "\n";
             fileIn.read((char*)&obj2, sizeof(obj2));
         }
         fileIn.close();
