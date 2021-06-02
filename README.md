@@ -12,7 +12,8 @@ This simple yet dynamic console application is to show how C++ can easily take i
 In order to use my application just use Visual Studio or any other C++ compiler/IDE and run my .cpp file. 
     
 ### Screenshots
-![screenshot of running application](s)
+![image](https://user-images.githubusercontent.com/21247085/120514888-5e061d80-c393-11eb-8eb7-253e00bd48f4.png)
+
 screenshot of running application
 
 ## Questions
